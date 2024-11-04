@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -256,25 +257,19 @@ export default function Home() {
           <br /> arrivals and offers.
         </h1>
       </div>
-      <div className="grid sm:grid-cols-2">
+      <div className="grid sm:grid-cols-2 items-center">
        <div>
-       <Image
-          src={"/Images/Frame 13.png"}
-          alt="Sms"
-          height={57}
-          width={417}
-          className="m-4 sm:ml-[430px] ml-20  w-[250]  sm:w-[317]"
-        />
+      <input 
+      placeholder="Email Address" 
+      type="text" 
+      className="text-center border-[#A29875] border mb-5 sm:mb-0 ml-14 sm:ml-[460px]  h-9 w-[300px]"
+      />
        </div>
        <div>
-       <Image
-          src={"/Images/Frame 14.png"}
-          alt="Sms"
-          height={57}
-          width={147}
-          className="m-4 w-[90] sm:w-[107px] sm:ml-20 ml-40"
-        />
-       </div>
+        <Link href={""}
+        className="bg-[#A29875] p-2 rounded text-white sm:ml-[100px] ml-[170px]"
+        >Subscribe</Link>
+               </div>
       </div>
       <div className="bg-[#A29875] md:h-[303px] mt-5">
         <Image
