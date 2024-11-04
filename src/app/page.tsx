@@ -168,7 +168,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="mt-24 bg-[#A29875]">
+      <div className="mt-24 m-5 bg-[#A29875]">
         <Image
           src={"/Images/Section2.png"}
           alt="Sms"
@@ -215,11 +215,11 @@ export default function Home() {
           alt="Sms"
           height={300}
           width={892}
-          className="p-4 sm:p-0 sm:m-10 "
+          className="p-4 sm:p-0 sm:m-6 "
         />
         <div className="text-center m-4 md:mt-52">
           <h1 className="text-[50px] font-semibold text-white">ABOUT US</h1>
-          <p className=" font-medium text-white">
+          <p className=" font-medium text-white ">
             At Purity, we strive to deliver excellence, consistently. We,ve
             brought to the market a whole new standard of business ethics and
             product reliability.
@@ -244,7 +244,7 @@ export default function Home() {
           alt="Sms"
           height={250}
           width={1622}
-          className="md:p-5 m-2"
+          className="sm:p-5 p-6"
         />
       </div>
       <div className="text-center">
@@ -256,21 +256,25 @@ export default function Home() {
           <br /> arrivals and offers.
         </h1>
       </div>
-      <div className="flex">
-        <Image
+      <div className="grid sm:grid-cols-2">
+       <div>
+       <Image
           src={"/Images/Frame 13.png"}
           alt="Sms"
           height={57}
           width={417}
-          className="m-4 sm:ml-[400px]  w-[250] sm:w-[417]"
+          className="m-4 sm:ml-[430px] ml-20  w-[250]  sm:w-[317]"
         />
-        <Image
+       </div>
+       <div>
+       <Image
           src={"/Images/Frame 14.png"}
           alt="Sms"
           height={57}
           width={147}
-          className="m-4 w-[100] md:w-[147px]"
+          className="m-4 w-[90] sm:w-[107px] sm:ml-20 ml-40"
         />
+       </div>
       </div>
       <div className="bg-[#A29875] md:h-[303px] mt-5">
         <Image
