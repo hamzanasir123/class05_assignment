@@ -6,11 +6,11 @@ export default function Home() {
     <>
       <nav className=" h-[64px] bg-[#A29875] w-full">
         <div className=" ml-[36px]">
-          <h1 className="text-[44px] text-white font-mono">MANZZARI</h1>
+          <h1 className="sm:text-[44px] text-[35px] text-white font-mono">MANZZARI</h1>
         </div>
       </nav>
-      <div className="grid sm:grid-cols-2">
-        <div className="h-[89px] sm:mt-[136px] mt-[36px] sm:ml-[176px] ml-[76px]">
+      <div className="grid md:grid-cols-2">
+        <div className="h-[89px] md:mt-[136px] mt-[36px] md:ml-[176px] ml-[46px]">
           <p className="font-bold text-[40px] text-[#504933] ">
             IMPECCABLE CRAFTSMANSHIP AND FINESSE
           </p>
@@ -20,7 +20,7 @@ export default function Home() {
             alt="Sms"
             height={58}
             width={288}
-            className="mt-[10px] sm:w-[200px] w-[150px]"
+            className="mt-[10px] md:w-[200px] w-[150px]"
           />
         </div>
         <div>
@@ -29,11 +29,11 @@ export default function Home() {
             alt="Sms"
             height={147}
             width={292}
-            className="mt-[268px] sm:mt-[68px] sm:ml-32 ml-20"
+            className="mt-[268px] md:mt-[68px] md:ml-32 ml-10"
           />
         </div>
       </div>
-      <h1 className="sm:text-[75px] text-[30px] text-center font-bold text-[#504933] sm:mt-36 mt-10">
+      <h1 className="md:text-[75px] text-[30px] text-center font-bold text-[#504933] md:mt-36 mt-10">
         Shop By Categories
       </h1>
       <br />
@@ -44,10 +44,10 @@ export default function Home() {
         alt="Sms"
         height={75}
         width={929}
-        className="sm:ml-52"
+        className="lg:ml-52 p-4"
       />
-      <div className="grid sm:grid-cols-8 gap-4 m-4">
-        <div className="sm:col-span-4">
+      <div className="grid sm:grid-cols-8  gap-4 m-4">
+        <div className="md:col-span-4">
           <Image
             src={"/Images/Group 14230.png"}
             alt="Sms"
@@ -75,8 +75,8 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="grid sm:grid-cols-8 gap-4 m-4">
-        <div className="sm:col-span-2">
+      <div className="grid md:grid-cols-8 gap-4 m-4">
+        <div className="md:col-span-2">
           <Image
             src={"/Images/Component 1.png"}
             alt="Sms"
@@ -85,7 +85,7 @@ export default function Home() {
             className=""
           />
         </div>
-        <div className="sm:col-span-2">
+        <div className="md:col-span-2">
           <Image
             src={"/Images/Component 9.png"}
             alt="Sms"
@@ -94,7 +94,7 @@ export default function Home() {
             className="mt-3"
           />
         </div>
-        <div className="sm:col-span-4">
+        <div className="md:col-span-4">
           <Image
             src={"/Images/banner-17.jpg.png"}
             alt="Sms"
@@ -114,11 +114,11 @@ export default function Home() {
         />
       </div>
       <div className="text-center">
-        <h1 className="sm:text-[65px] text-[30px] mt-5 mb-5 font-bold text-[#504933]">
+        <h1 className="md:text-[65px] text-[30px] mt-5 mb-5 font-bold text-[#504933]">
           Trendy Collection
         </h1>
       </div>
-      <div className="grid sm:grid-cols-4 ml-14 p-4 ">
+      <div className="grid sm:grid-cols-4 ml-10 p-4 ">
         <div className="w-[300px]">
           <Image
             src={"/Images/Component 17.png"}
@@ -127,7 +127,7 @@ export default function Home() {
             width={300}
             className=""
           />
-          <p className="text-4xl font-medium sm:text-right text-center text-[#938965]">
+          <p className="text-4xl font-medium md:text-right text-center text-[#938965]">
             Cable Chain Chokar ₹20,000
           </p>
         </div>
@@ -139,7 +139,7 @@ export default function Home() {
             width={300}
             className=""
           />
-          <p className="text-4xl font-medium sm:text-right text-center text-[#938965]">
+          <p className="text-4xl font-medium md:text-right text-center text-[#938965]">
             Link Chain Earing ₹20,000
           </p>
         </div>
@@ -151,7 +151,7 @@ export default function Home() {
             width={300}
             className=""
           />
-          <p className="text-4xl font-medium sm:text-right text-center text-[#938965]">
+          <p className="text-4xl font-medium md:text-right text-center text-[#938965]">
             Yona Signet Ring ₹20,000
           </p>
         </div>
@@ -163,7 +163,7 @@ export default function Home() {
             width={300}
             className=""
           />
-          <p className="text-4xl font-medium sm:text-right text-center text-[#938965]">
+          <p className="text-4xl font-medium md:text-right text-center text-[#938965]">
             Anna Ribbed Bangle ₹20,000
           </p>
         </div>
@@ -177,11 +177,11 @@ export default function Home() {
           className=""
         />
       </div>
-      <div className="text-center sm:mt-24 mt-5">
-        <h1 className="sm:text-[65px] text-[30px] font-bold text-[#504933]">Spotted on</h1>
+      <div className="text-center md:mt-24 mt-5">
+        <h1 className="md:text-[65px] text-[30px] font-bold text-[#504933]">Spotted on</h1>
       </div>
 
-      <div className="sm:m-20 m-5">
+      <div className="md:m-20 m-5">
         <Image
           src={"/Images/Frame 3.png"}
           alt="Sms"
@@ -191,16 +191,16 @@ export default function Home() {
         />
       </div>
 
-      <div className="sm:m-20 m-5">
+      <div className="md:m-20 m-5">
         <Image
           src={"/Images/test-3-1.jpg.png"}
           alt="Sms"
           height={90}
           width={90}
-          className="sm:ml-[550px] ml-[157px] "
+          className="md:ml-[550px] ml-[157px] "
         />
-        <p className="sm:ml-[540px] ml-[150px] text-3xl">EDISON</p>
-        <p className="sm:ml-[560px] ml-[169px]">Designer</p>
+        <p className="md:ml-[540px] ml-[150px] text-3xl">EDISON</p>
+        <p className="md:ml-[560px] ml-[169px]">Designer</p>
         <Image
           src={"/Images/Frame 18.png"}
           alt="Sms"
@@ -209,15 +209,15 @@ export default function Home() {
           className=""
         />
       </div>
-      <div className="bg-[#A29875] h-[522px] grid sm:grid-cols-2">
+      <div className="bg-[#A29875] h-[522px] grid md:grid-cols-2">
         <Image
           src={"/Images/image 1.png"}
           alt="Sms"
           height={300}
           width={892}
-          className="m-4"
+          className="p-4 sm:p-0 sm:m-10 "
         />
-        <div className="text-center m-4 sm:mt-52">
+        <div className="text-center m-4 md:mt-52">
           <h1 className="text-[50px] font-semibold text-white">ABOUT US</h1>
           <p className=" font-medium text-white">
             At Purity, we strive to deliver excellence, consistently. We,ve
@@ -229,12 +229,12 @@ export default function Home() {
             alt="Sms"
             height={39}
             width={192}
-            className="m-4 sm:ml-64 ml-[127px] w-[130px] sm:w-[192px]"
+            className="m-4 md:ml-64 ml-[127px] mb-5 w-[130px] md:w-[192px]"
           />
         </div>
       </div>
       <div className="text-center">
-        <h1 className="sm:text-[75px] text-[30px] text-[#504933] font-medium m-4 mb-10">
+        <h1 className="md:text-[75px] text-[30px] text-[#504933] font-medium m-4 mb-10">
           Purity on Instagram
         </h1>
       </div>
@@ -244,11 +244,11 @@ export default function Home() {
           alt="Sms"
           height={250}
           width={1622}
-          className="sm:m-4"
+          className="md:p-5 m-2"
         />
       </div>
       <div className="text-center">
-        <h1 className="sm:text-[75px] text-[30px]  text-[#504933] font-medium m-4">Newsletter</h1>
+        <h1 className="md:text-[75px] text-[30px]  text-[#504933] font-medium m-4">Newsletter</h1>
       </div>
       <div className="text-center">
         <h1 className="text-[20px] font-medium m-10 text-[#A29875]">
@@ -262,26 +262,26 @@ export default function Home() {
           alt="Sms"
           height={57}
           width={417}
-          className="m-4 sm:ml-[400px] ml-[100px] w-[250] sm:w-[417]"
+          className="m-4 sm:ml-[400px]  w-[250] sm:w-[417]"
         />
         <Image
           src={"/Images/Frame 14.png"}
           alt="Sms"
           height={57}
           width={147}
-          className="m-4 w-[100] sm:w-[147px]"
+          className="m-4 w-[100] md:w-[147px]"
         />
       </div>
-      <div className="bg-[#A29875] sm:h-[303px] mt-5">
+      <div className="bg-[#A29875] md:h-[303px] mt-5">
         <Image
           src={"/Images/Frame 27.png"}
           alt="Sms"
           height={203}
           width={1214}
-          className="sm:m-4 p-12 sm:ml-16"
+          className="md:m-4 p-12 md:ml-16"
         />
       </div>
-      <div className="sm:h-[54px] h-[30px] bg-[#504933]"></div>
+      <div className="md:h-[54px] h-[30px] bg-[#504933]"></div>
     </>
   );
 }
