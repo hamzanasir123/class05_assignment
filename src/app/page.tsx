@@ -2,100 +2,285 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      <nav className=" h-[64px] bg-[#A29875] w-full">
+        <div className=" ml-[36px]">
+          <h1 className="text-[44px] text-white font-mono">MANZZARI</h1>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      </nav>
+      <div className="grid sm:grid-cols-2">
+        <div className="h-[89px] sm:mt-[136px] mt-[36px] sm:ml-[176px] ml-[76px]">
+          <p className="font-bold text-[40px] text-[#504933] ">
+            IMPECCABLE CRAFTSMANSHIP AND FINESSE
+          </p>
+          <Image src={"/Images/sms.png"} alt="Sms" height={147} width={902} />
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src={"/Images/Frame 11.png"}
+            alt="Sms"
+            height={58}
+            width={288}
+            className="mt-[10px] sm:w-[200px] w-[150px]"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        </div>
+        <div>
           <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+            src={"/Images/profile.png"}
+            alt="Sms"
+            height={147}
+            width={292}
+            className="mt-[268px] sm:mt-[68px] sm:ml-32 ml-20"
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        </div>
+      </div>
+      <h1 className="sm:text-[75px] text-[30px] text-center font-bold text-[#504933] sm:mt-36 mt-10">
+        Shop By Categories
+      </h1>
+      <br />
+      <br />
+      <br />
+      <Image
+        src={"/Images/Frame 1.png"}
+        alt="Sms"
+        height={75}
+        width={929}
+        className="sm:ml-52"
+      />
+      <div className="grid sm:grid-cols-8 gap-4 m-4">
+        <div className="sm:col-span-4">
           <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
+            src={"/Images/Group 14230.png"}
+            alt="Sms"
+            height={582}
+            width={893}
+            className="mt-[60px]"
           />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        </div>
+        <div className="sm:col-span-2">
+          <Image
+            src={"/Images/Component 1.png"}
+            alt="Sms"
+            height={581}
+            width={893}
+            className=""
+          />
+        </div>
+        <div className="sm:col-span-2">
+          <Image
+            src={"/Images/Component 10.png"}
+            alt="Sms"
+            height={581}
+            width={893}
+            className="mt-[13px]"
+          />
+        </div>
+      </div>
+      <div className="grid sm:grid-cols-8 gap-4 m-4">
+        <div className="sm:col-span-2">
+          <Image
+            src={"/Images/Component 1.png"}
+            alt="Sms"
+            height={479}
+            width={375}
+            className=""
+          />
+        </div>
+        <div className="sm:col-span-2">
+          <Image
+            src={"/Images/Component 9.png"}
+            alt="Sms"
+            height={581}
+            width={893}
+            className="mt-3"
+          />
+        </div>
+        <div className="sm:col-span-4">
+          <Image
+            src={"/Images/banner-17.jpg.png"}
+            alt="Sms"
+            height={581}
+            width={893}
+            className="mt-[60px]"
+          />
+        </div>
+      </div>
+      <div>
+        <Image
+          src={"/Images/Section1.png"}
+          alt="Sms"
+          height={300}
+          width={1920}
+          className=""
+        />
+      </div>
+      <div className="text-center">
+        <h1 className="sm:text-[65px] text-[30px] mt-5 mb-5 font-bold text-[#504933]">
+          Trendy Collection
+        </h1>
+      </div>
+      <div className="grid sm:grid-cols-4 ml-14 p-4 ">
+        <div className="w-[300px]">
+          <Image
+            src={"/Images/Component 17.png"}
+            alt="Sms"
+            height={479}
+            width={300}
+            className=""
+          />
+          <p className="text-4xl font-medium sm:text-right text-center text-[#938965]">
+            Cable Chain Chokar ₹20,000
+          </p>
+        </div>
+        <div className="w-[300px]">
+          <Image
+            src={"/Images/Component 23.png"}
+            alt="Sms"
+            height={479}
+            width={300}
+            className=""
+          />
+          <p className="text-4xl font-medium sm:text-right text-center text-[#938965]">
+            Link Chain Earing ₹20,000
+          </p>
+        </div>
+        <div className="w-[300px]">
+          <Image
+            src={"/Images/Component 21.png"}
+            alt="Sms"
+            height={479}
+            width={300}
+            className=""
+          />
+          <p className="text-4xl font-medium sm:text-right text-center text-[#938965]">
+            Yona Signet Ring ₹20,000
+          </p>
+        </div>
+        <div className="w-[300px]">
+          <Image
+            src={"/Images/Component 22.png"}
+            alt="Sms"
+            height={479}
+            width={300}
+            className=""
+          />
+          <p className="text-4xl font-medium sm:text-right text-center text-[#938965]">
+            Anna Ribbed Bangle ₹20,000
+          </p>
+        </div>
+      </div>
+      <div className="mt-24 bg-[#A29875]">
+        <Image
+          src={"/Images/Section2.png"}
+          alt="Sms"
+          height={300}
+          width={1920}
+          className=""
+        />
+      </div>
+      <div className="text-center sm:mt-24 mt-5">
+        <h1 className="sm:text-[65px] text-[30px] font-bold text-[#504933]">Spotted on</h1>
+      </div>
+
+      <div className="sm:m-20 m-5">
+        <Image
+          src={"/Images/Frame 3.png"}
+          alt="Sms"
+          height={300}
+          width={1920}
+          className=""
+        />
+      </div>
+
+      <div className="sm:m-20 m-5">
+        <Image
+          src={"/Images/test-3-1.jpg.png"}
+          alt="Sms"
+          height={90}
+          width={90}
+          className="sm:ml-[550px] ml-[157px] "
+        />
+        <p className="sm:ml-[540px] ml-[150px] text-3xl">EDISON</p>
+        <p className="sm:ml-[560px] ml-[169px]">Designer</p>
+        <Image
+          src={"/Images/Frame 18.png"}
+          alt="Sms"
+          height={300}
+          width={1920}
+          className=""
+        />
+      </div>
+      <div className="bg-[#A29875] h-[522px] grid sm:grid-cols-2">
+        <Image
+          src={"/Images/image 1.png"}
+          alt="Sms"
+          height={300}
+          width={892}
+          className="m-4"
+        />
+        <div className="text-center m-4 sm:mt-52">
+          <h1 className="text-[50px] font-semibold text-white">ABOUT US</h1>
+          <p className=" font-medium text-white">
+            At Purity, we strive to deliver excellence, consistently. We,ve
+            brought to the market a whole new standard of business ethics and
+            product reliability.
+          </p>
+          <Image
+            src={"/Images/Frame 12.png"}
+            alt="Sms"
+            height={39}
+            width={192}
+            className="m-4 sm:ml-64 ml-[127px] w-[130px] sm:w-[192px]"
+          />
+        </div>
+      </div>
+      <div className="text-center">
+        <h1 className="sm:text-[75px] text-[30px] text-[#504933] font-medium m-4 mb-10">
+          Purity on Instagram
+        </h1>
+      </div>
+      <div>
+        <Image
+          src={"/Images/Frame 10.png"}
+          alt="Sms"
+          height={250}
+          width={1622}
+          className="sm:m-4"
+        />
+      </div>
+      <div className="text-center">
+        <h1 className="sm:text-[75px] text-[30px]  text-[#504933] font-medium m-4">Newsletter</h1>
+      </div>
+      <div className="text-center">
+        <h1 className="text-[20px] font-medium m-10 text-[#A29875]">
+          Sign-up to receive 10% off your next purchase. Plus hear about new
+          <br /> arrivals and offers.
+        </h1>
+      </div>
+      <div className="flex">
+        <Image
+          src={"/Images/Frame 13.png"}
+          alt="Sms"
+          height={57}
+          width={417}
+          className="m-4 sm:ml-[400px] ml-[100px] w-[250] sm:w-[417]"
+        />
+        <Image
+          src={"/Images/Frame 14.png"}
+          alt="Sms"
+          height={57}
+          width={147}
+          className="m-4 w-[100] sm:w-[147px]"
+        />
+      </div>
+      <div className="bg-[#A29875] sm:h-[303px] mt-5">
+        <Image
+          src={"/Images/Frame 27.png"}
+          alt="Sms"
+          height={203}
+          width={1214}
+          className="sm:m-4 p-12 sm:ml-16"
+        />
+      </div>
+      <div className="sm:h-[54px] h-[30px] bg-[#504933]"></div>
+    </>
   );
 }
